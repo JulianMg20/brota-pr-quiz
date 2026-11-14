@@ -1,0 +1,13 @@
+{
+  "name": "brota-pr-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Quiz automático en los PR: la persona autora responde preguntas sobre su propio cambio antes de fusionar.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
