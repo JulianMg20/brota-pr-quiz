@@ -1,7 +1,7 @@
 # brota-pr-quiz
 
 Quiz automático en los Pull Requests: antes de fusionar, la persona autora responde preguntas
-sobre **su propio cambio** (qué archivos toca, qué crea, qué declara, cuántas líneas agrega).
+sobre **su propio cambio**: qué archivo de pruebas trae (o si no trae ninguno), qué archivos toca, qué crea, qué declara y cuántas líneas agrega.
 Idea inspirada en PR-Quiz-Demo; esta es una implementación propia.
 
 ## Cómo funciona
