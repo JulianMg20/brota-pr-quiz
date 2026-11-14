@@ -6,3 +6,8 @@ export function calcularEdad(fechaNacimiento, hoy = new Date()) {
   if (mes < 0 || (mes === 0 && hoy.getUTCDate() < nacimiento.getUTCDate())) edad--;
   return edad;
 }
+
+export function esMayorDeEdad(fechaNacimiento, hoy = new Date()) {
+  const EDAD_MINIMA = 18;
+  return calcularEdad(fechaNacimiento, hoy) >= EDAD_MINIMA;
+}
